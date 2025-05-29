@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views');
+app.set('views',Path2D.join(__dirname , '/views'));
 
 
 const PORT = 3000;
